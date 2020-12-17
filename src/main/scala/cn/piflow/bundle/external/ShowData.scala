@@ -58,7 +58,7 @@ class ShowData extends ConfigurableStop{
 
   // get icon of Stop
   override def getIcon(): Array[Byte] = {
-    ImageUtil.getImage("icon/csv/CsvParser.png", this.getClass.getName)
+    ImageUtil.getImage("icon/csv/CsvParser.png")
   }
 
   // get group of Stop
